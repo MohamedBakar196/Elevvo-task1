@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sidebar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="logo">
+                <i class="fas fa-rocket"></i>
+                <span class="logo-text">Brand</span>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-home"></i>
+                        <span class="link-text">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chart-bar"></i>
+                        <span class="link-text">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-envelope"></i>
+                        <span class="link-text">Messages</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        <span class="link-text">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question-circle"></i>
+                        <span class="link-text">Help</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="toggle-btn">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </nav>
+        <main class="main-content">
+            <article class="content-wrapper">
+                <h1>Welcome to the Dashboard</h1>
+                <p>This is a fully responsive sidebar layout. Click the toggle button in the sidebar to collapse or expand it.</p>
+                <section class="card">
+                    <h2>Responsive Design</h2>
+                    <p>This layout automatically adjusts to different screen sizes. Try resizing your browser window to see how it responds.</p>
+                </section>
+                <section class="card">
+                    <h2>Features</h2>
+                    <ul class="features-list">
+                        <li>Fully responsive design</li>
+                        <li>Smooth animations</li>
+                        <li>Mobile-friendly interface</li>
+                        <li>Persistent state management</li>
+                    </ul>
+                </section>
+            </article>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
